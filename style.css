@@ -1,0 +1,50 @@
+/* ============Google Fonts=============== */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@300&display=swap');
+:root {
+    --body-font: 'PT Sans', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.error {
+    padding-left: 10px;
+}
+
+@media (min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+    .error {
+        padding-left: 250px;
+    }
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#enroll {
+    background-color: #008f5a;
+    border: none;
+}
+
+#enroll:hover {
+    background-color: #156d4d;
+}
+
+#enroll:focus {
+    box-shadow: none;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+input:focus {
+    box-shadow: none !important;
+}
